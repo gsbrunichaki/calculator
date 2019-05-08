@@ -1,0 +1,8 @@
+.calculator {
+    display: grid;
+    width: 235px;
+    height: 320px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    overflow: hidden;
+}
