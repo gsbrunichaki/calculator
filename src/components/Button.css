@@ -1,13 +1,20 @@
 :root {
     --button-bg: #f0f0f0;
-    --button-border: 1px solid #888;
 }
 
 .button {
     background-color: var(--button-bg);
     font-size: 1.4em;
+    font-weight: bold;
     border: none;
-    border-right: var(--button-border);
-    border-bottom: var(--button-border);
     outline: none;
+}
+
+.button:active {
+    background-color: #ccc;
+}
+
+.button.operation {
+    background-color: #16a085;
+    color: #fff;
 }

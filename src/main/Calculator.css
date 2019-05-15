@@ -1,8 +1,25 @@
 .calculator {
-    display: grid;
     width: 235px;
     height: 320px;
-    background-color: darkcyan;
     border-radius: 5px;
     overflow: hidden;
+
+    display: grid;
+    grid-template:
+        "d d"
+        "l r";
+    grid-template-columns: 75% 25%;
+}
+
+.left {
+    grid-area: l;
+
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+}
+
+.right {
+    grid-area: r;
+
+    display: grid;
 }
