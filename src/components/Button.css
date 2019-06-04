@@ -1,9 +1,5 @@
-:root {
-    --button-bg: #f0f0f0;
-}
-
 .button {
-    background-color: var(--button-bg);
+    background-color: #f0f0f0;
     font-size: 1.4em;
     font-weight: bold;
     border: none;
@@ -17,4 +13,8 @@
 .button.operation {
     background-color: #16a085;
     color: #fff;
+}
+
+.operation:active {
+    background-color: #13836D;
 }
